@@ -1,0 +1,101 @@
+header{
+    width: 100vw;
+    height: 100px;
+    position:fixed;
+    top: 0;
+    left: 0;
+    /* background-color:aqua; */
+    display: flex;
+    align-items: center;
+}
+
+.logo > img{
+    height: 26px;
+    width: auto;
+}
+
+.logo{
+    margin: 0 0 10px;
+    position: relative;
+    left: 14.5%;
+    z-index: 2;
+}
+
+.mainlinks{
+    height: 100px;
+    width: 614px;
+    /* background-color: blue; */
+    position: relative;
+    left: 15.75%;
+    z-index: 2;
+}
+
+ul{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.secondlinks{
+    height: 100px;
+    width: 112px;
+    /* background-color:brown; */
+    position: absolute;
+    right: 3%;
+    z-index: 2;
+}
+
+ul > li{
+    color: white;
+    font-size: 12px;
+    margin: 3px 0 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+
+footer{
+    display: flex;
+    justify-content;
+}
+
+.foottext{
+    font-size: 10px;
+}
+
+#copyright{
+    color: gray;
+}
+
+#hamlogo{
+    height: 14px;
+    width: 16px;
+    transform: rotate(90deg);
+    /* z-index: 2; */
+}
+
+.background{
+    /* width: 100vw;
+    height: 100vh; */
+    overflow: hidden;
+}
+
+.background-image{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    border: 0;  
+}
+
+footer{
+    background-color: black;
+}
+
+a:link{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
