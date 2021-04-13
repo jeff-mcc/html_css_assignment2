@@ -55,16 +55,19 @@ ul > li{
 }
 
 footer{
+    background-color: black;
     display: flex;
-    justify-content;
+    justify-content: center;
 }
 
 .foottext{
     font-size: 10px;
+    margin: 20px;
 }
 
 #copyright{
     color: gray;
+    font-weight: normal;
 }
 
 #hamlogo{
@@ -78,6 +81,7 @@ footer{
     /* width: 100vw;
     height: 100vh; */
     overflow: hidden;
+    margin: 0;
 }
 
 .background-image{
@@ -85,10 +89,7 @@ footer{
     height: 100vh;
     object-fit: cover;
     border: 0;  
-}
-
-footer{
-    background-color: black;
+    margin: 0;
 }
 
 a:link{
