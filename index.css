@@ -93,6 +93,56 @@ footer{
     margin: 0;
 }
 
+.overlay{
+    height: 246px;
+    width: 520px;
+    position: absolute;
+    right: 15%;
+    bottom: 15%;
+    color:white;
+    font-family:Arial,Verdana,sans-serif;
+    /* font: icon; */
+    /* background-color: chartreuse; */
+    display: flex;
+    flex-direction: column;
+}
+
+.box{
+    margin: 30px 0 0;
+    /* display: flex;
+    text-align: center;
+    justify-content: center; */
+}
+
+.boxtext{
+    width: 130px;
+    height: 50px;
+    padding: 0 15px;
+    /* margin: 30px 0 0; */
+    border:white 2px solid;
+    /* color:white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.bighead{
+    /* font-weight: bolder; */
+    margin: 0 0 20px;
+    text-shadow: 1px 1px 1px gray;
+    font-size: 44px;
+    font-weight: bold;
+    /* font-stretch:ultra-condensed; */
+}
+
+.smhead{
+    font-weight: normal;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
 a:link{
     color: white;
     text-decoration: none;
@@ -100,4 +150,9 @@ a:link{
 
 a:hover{
     text-decoration: underline;
+}
+
+.boxtext:hover{
+    background-color: white;
+    color: black;
 }
